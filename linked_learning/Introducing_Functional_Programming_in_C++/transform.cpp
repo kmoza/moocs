@@ -21,6 +21,12 @@ int main()
 
     cout << "Transform" << endl;
     render(outCollection);
+
+    //adding usgae of copy_if
+    vector<int> filteredCollection;
+    copy_if(inCollection.begin(), inCollection.end(), back_inserter(filteredCollection), [](int& value){return value % 2  != 0;});
+    cout << "copy_if" << endl;
+    render(filteredCollection);
     return 0;
 
 }
