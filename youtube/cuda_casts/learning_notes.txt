@@ -1,0 +1,11 @@
+lesson1 vector_add example
+
+target when ran on cpu
+c[:5] = [2. 2. 2. 2. 2.]
+c[-5:] = [2. 2. 2. 2. 2.]
+vectoradd took for 0.14899969100952148 seconds
+
+target when ran on parallel
+c[:5] = [2. 2. 2. 2. 2.]
+c[-5:] = [2. 2. 2. 2. 2.]
+vectoradd took for 0.1100003719329834 seconds
