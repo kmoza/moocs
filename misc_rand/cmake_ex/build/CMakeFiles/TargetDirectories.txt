@@ -1,0 +1,3 @@
+C:/Users/krishna/ko_work/moocs/misc_rand/cmake_ex/build/CMakeFiles/cmake_test.dir
+C:/Users/krishna/ko_work/moocs/misc_rand/cmake_ex/build/CMakeFiles/edit_cache.dir
+C:/Users/krishna/ko_work/moocs/misc_rand/cmake_ex/build/CMakeFiles/rebuild_cache.dir
