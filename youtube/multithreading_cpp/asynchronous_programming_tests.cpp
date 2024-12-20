@@ -12,7 +12,7 @@ void asyncFunc()
 
 int main()
 {
-    cout << "Main Threads" <<this_thread::get_id()<<endl;
+    cout << "Main Threads" << this_thread::get_id() << endl;
     future<void> fn = async(launch::async, asyncFunc);
     fn.get();
     return 0;
